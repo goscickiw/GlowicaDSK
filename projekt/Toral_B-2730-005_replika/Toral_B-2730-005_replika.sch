@@ -126,17 +126,6 @@ Wire Notes Line
 Text Notes 1250 3350 0    50   Italic 10
 Filtry
 $Comp
-L Device:C C6
-U 1 1 5F40EE19
-P 5350 2900
-F 0 "C6" H 5465 2946 50  0000 L CNN
-F 1 "27pF" H 5465 2855 50  0000 L CNN
-F 2 "Toral_B-2730-005_replika:2pin_13mm" H 5388 2750 50  0001 C CNN
-F 3 "~" H 5350 2900 50  0001 C CNN
-	1    5350 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:L L5
 U 1 1 5F40FBA9
 P 5100 2700
@@ -151,12 +140,12 @@ $Comp
 L Device:C C5
 U 1 1 5F411ACA
 P 4850 2900
-F 0 "C5" H 4650 2850 50  0000 L CNN
-F 1 "100pF" H 4500 2950 50  0000 L CNN
+F 0 "C5" H 4950 2850 50  0000 L CNN
+F 1 "100pF" H 4950 2950 50  0000 L CNN
 F 2 "Toral_B-2730-005_replika:2pin_20mm" H 4888 2750 50  0001 C CNN
 F 3 "~" H 4850 2900 50  0001 C CNN
 	1    4850 2900
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:L L4
@@ -173,12 +162,12 @@ $Comp
 L Device:C C4
 U 1 1 5F41265C
 P 4350 2900
-F 0 "C4" H 4150 2850 50  0000 L CNN
-F 1 "27pF" H 4050 2950 50  0000 L CNN
+F 0 "C4" H 4450 2850 50  0000 L CNN
+F 1 "27pF" H 4450 2950 50  0000 L CNN
 F 2 "Toral_B-2730-005_replika:2pin_13mm" H 4388 2750 50  0001 C CNN
 F 3 "~" H 4350 2900 50  0001 C CNN
 	1    4350 2900
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5350 2700 5350 2750
@@ -246,12 +235,12 @@ $Comp
 L Device:L L6
 U 1 1 5F41A46D
 P 5100 2300
-F 0 "L6" V 5050 2300 50  0000 C CNN
+F 0 "L6" V 5200 2300 50  0000 C CNN
 F 1 "L" H 5153 2255 50  0001 L CNN
 F 2 "Toral_B-2730-005_replika:2pin_7.5mm" H 5100 2300 50  0001 C CNN
 F 3 "~" H 5100 2300 50  0001 C CNN
 	1    5100 2300
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:C C9
@@ -329,12 +318,12 @@ $Comp
 L Device:C C3
 U 1 1 5F422D94
 P 4150 1900
-F 0 "C3" V 4400 1900 50  0000 C CNN
-F 1 "560pF" V 4300 1900 50  0000 C CNN
+F 0 "C3" V 3900 1900 50  0000 C CNN
+F 1 "560pF" V 4000 1900 50  0000 C CNN
 F 2 "Toral_B-2730-005_replika:2pin_20mm" H 4188 1750 50  0001 C CNN
 F 3 "~" H 4150 1900 50  0001 C CNN
 	1    4150 1900
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:GND #PWR0108
@@ -353,12 +342,12 @@ $Comp
 L Device:C C2
 U 1 1 5F4289E2
 P 3750 1900
-F 0 "C2" V 4000 1900 50  0000 C CNN
-F 1 "560pF" V 3900 1900 50  0000 C CNN
+F 0 "C2" V 3500 1900 50  0000 C CNN
+F 1 "560pF" V 3600 1900 50  0000 C CNN
 F 2 "Toral_B-2730-005_replika:2pin_20mm" H 3788 1750 50  0001 C CNN
 F 3 "~" H 3750 1900 50  0001 C CNN
 	1    3750 1900
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:C C1
@@ -405,22 +394,11 @@ F 3 "" H 2800 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Toral_B-2730-005_replika:4.7 Tr2
-U 1 1 5F44492C
-P 3450 2100
-F 0 "Tr2" H 3397 2075 50  0000 R CNN
-F 1 "4.7" H 3550 2100 50  0001 C CNN
-F 2 "Toral_B-2730-005_replika:Tr2" H 3450 2100 50  0001 C CNN
-F 3 "" H 3450 2100 50  0001 C CNN
-	1    3450 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Toral_B-2730-005_replika:36 Tr1
+L Toral_B-2730-005_replika:Tr1 Tr1
 U 1 1 5F4450D5
 P 3050 2600
 F 0 "Tr1" H 3200 2650 50  0000 R CNN
-F 1 "36" H 3150 2550 50  0001 C CNN
+F 1 "Tr1" H 3150 2550 50  0001 C CNN
 F 2 "Toral_B-2730-005_replika:Tr1" H 3050 3000 50  0001 C CNN
 F 3 "" H 3050 3000 50  0001 C CNN
 	1    3050 2600
@@ -456,8 +434,6 @@ F 3 "" H 3050 3100 50  0001 C CNN
 	1    3050 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 3100 3050 2800
 Wire Wire Line
 	3550 1900 3550 2150
 Wire Wire Line
@@ -528,18 +504,6 @@ F 3 "~" H 3950 2150 50  0001 C CNN
 	1    3950 2150
 	1    0    0    -1  
 $EndComp
-Text Notes 3050 2850 0    50   ~ 0
-1
-Text Notes 3100 2700 0    50   ~ 0
-2
-Text Notes 3050 2400 0    50   ~ 0
-3
-Text Notes 3450 2300 0    50   ~ 0
-1
-Text Notes 3500 2150 0    50   ~ 0
-2
-Text Notes 3450 2000 0    50   ~ 0
-3
 Wire Wire Line
 	4400 2700 4350 2700
 Connection ~ 4350 2700
@@ -547,10 +511,6 @@ Wire Wire Line
 	4350 2700 3100 2700
 Wire Wire Line
 	2800 2800 2800 3100
-Wire Notes Line
-	3000 2450 3000 2750
-Wire Notes Line
-	3400 2000 3400 2250
 Wire Wire Line
 	3100 1900 3050 1900
 Connection ~ 3050 1900
@@ -596,4 +556,28 @@ Wire Wire Line
 Connection ~ 5350 2300
 Wire Wire Line
 	5350 2300 5350 2350
+$Comp
+L Toral_B-2730-005_replika:Tr2 Tr2
+U 1 1 5F44492C
+P 3450 2100
+F 0 "Tr2" H 3397 2075 50  0000 R CNN
+F 1 "Tr2" H 3550 2100 50  0001 C CNN
+F 2 "Toral_B-2730-005_replika:Tr2" H 3450 2100 50  0001 C CNN
+F 3 "" H 3450 2100 50  0001 C CNN
+	1    3450 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3100 3050 2800
+$Comp
+L Device:C C6
+U 1 1 5F40EE19
+P 5350 2900
+F 0 "C6" H 5465 2946 50  0000 L CNN
+F 1 "27pF" H 5465 2855 50  0000 L CNN
+F 2 "Toral_B-2730-005_replika:2pin_13mm" H 5388 2750 50  0001 C CNN
+F 3 "~" H 5350 2900 50  0001 C CNN
+	1    5350 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

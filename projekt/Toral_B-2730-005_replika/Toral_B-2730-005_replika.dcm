@@ -1,13 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 36
-D Transformator dopasowania impedancji 36:1
-$ENDCMP
-#
-$CMP 4.7
-D Transformator dopasowania impedancji 4.7:1
-$ENDCMP
-#
 $CMP Conn_Coaxial
 D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
@@ -24,6 +16,14 @@ $ENDCMP
 #
 $CMP F3
 D Oznaczenie filtra F3
+$ENDCMP
+#
+$CMP Tr1
+D Transformator dopasowania impedancji Tr1
+$ENDCMP
+#
+$CMP Tr2
+D Transformator dopasowania impedancji Tr2
 $ENDCMP
 #
 #End Doc Library
